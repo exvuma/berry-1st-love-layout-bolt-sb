@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 import { PartyDetails, Task, TimelineEvent, Element } from '../types';
-import { partyData } from '../data/partyData';
+import partyData from '../data/partyData';
 
 type PartyContextType = {
   partyDetails: PartyDetails;
