@@ -75,4 +75,7 @@ const elements = [
   }
 ] as Element[];
 
-export default elements;
+
+// Rename the export to partyData
+const partyData = elements;
+export default partyData; // If you want to export it as default
