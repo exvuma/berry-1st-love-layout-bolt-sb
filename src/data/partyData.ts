@@ -1,12 +1,12 @@
+
 const baseURL = "https://confetti-styleguide-app.8track.workers.dev";
 
 const elements = [
   {
     id: "element-1",
     title: "Berry-themed Cake",
-    description:
-      "A two-tier cake with strawberry decorations and pink frosting",
-    image: `${baseURL}/Strawberry/cake.png`, // Updated URL
+    description: "A two-tier cake with strawberry decorations and pink frosting",
+    image: `${baseURL}/Strawberry/Products/cake.png`,
     category: "food",
     materials: [
       { name: "Two-tier cake", quantity: "1", purchased: true },
@@ -19,9 +19,8 @@ const elements = [
   {
     id: "element-2",
     title: "Strawberry Balloon Arch",
-    description:
-      "A 6-foot arch with red, pink, and white balloons plus strawberry foil balloons",
-    image: `${baseURL}/Strawberry/balloon.png`, // Updated URL
+    description: "A 6-foot arch with red, pink, and white balloons plus strawberry foil balloons",
+    image: `${baseURL}/Strawberry/balloon.png`,
     category: "decoration",
     materials: [
       { name: 'Red balloons (11")', quantity: "100", purchased: false },
@@ -35,12 +34,11 @@ const elements = [
     relatedTasks: [],
     relatedTimelineEvents: [],
   },
-  // Continue to add other elements with updated URLs
   {
     id: "element-3",
     title: "Table and Cookies",
-    description: "A decorative table with assorted cookies.",
-    image: `${baseURL}/Wild%20one/table_and_cookie.png`, // Updated URL
+    description: "A decorative table with assorted cookies",
+    image: `${baseURL}/Wild%20one/AI%20Products/table_and_cookie.png`,
     category: "food",
     materials: [
       { name: "Cookie trays", quantity: "2", purchased: false },
@@ -49,7 +47,32 @@ const elements = [
     relatedTasks: [],
     relatedTimelineEvents: [],
   },
-  // Add more elements accordingly...
+  {
+    id: "element-4",
+    title: "Party Plates",
+    description: "Strawberry themed party plates for serving",
+    image: `${baseURL}/Strawberry/Products/strawberry_plates.png`,
+    category: "food",
+    materials: [
+      { name: "Strawberry plates", quantity: "24", purchased: false },
+      { name: "Matching cups", quantity: "24", purchased: false },
+    ],
+    relatedTasks: [],
+    relatedTimelineEvents: [],
+  },
+  {
+    id: "element-5",
+    title: "Strawberry Party Scene",
+    description: "Complete party scene setup with strawberry theme",
+    image: `${baseURL}/Strawberry/scene.png`,
+    category: "decoration",
+    materials: [
+      { name: "Scene backdrop", quantity: "1", purchased: false },
+      { name: "Decorative elements", quantity: "1 set", purchased: false },
+    ],
+    relatedTasks: [],
+    relatedTimelineEvents: [],
+  }
 ] as Element[];
 
 export default elements;
