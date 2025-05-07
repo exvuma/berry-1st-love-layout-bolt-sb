@@ -104,6 +104,8 @@ const TimelineEvent: React.FC<TimelineEventProps> = ({ event, isFirst, isLast, i
                     </div>
                   )}
                   
+               
+
                   {relatedElements.length > 0 && (
                     <div>
                       <h4 className="font-medium text-neutral-700 text-sm mb-2 flex items-center">
@@ -119,7 +121,7 @@ const TimelineEvent: React.FC<TimelineEventProps> = ({ event, isFirst, isLast, i
                             >
                               <div 
                                 className="w-4 h-4 rounded-full bg-cover bg-center mr-2 border border-white shadow-sm"
-                                style={{ backgroundImage: `url(${element.image})` }}
+                                style={{ backgroundImage: `url(${element.image})` }} // Ensure it points to the new URL
                               ></div>
                               {element.title}
                             </Link>

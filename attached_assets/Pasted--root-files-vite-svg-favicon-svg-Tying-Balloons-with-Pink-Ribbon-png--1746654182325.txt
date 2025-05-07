@@ -1,0 +1,80 @@
+{
+  "root_files": [
+    "vite.svg",
+    "favicon.svg",
+    "Tying Balloons with Pink Ribbon.png",
+    "Screenshot 2025-04-30 at 4.44.33 PM.png",
+    "Screenshot 2025-04-30 at 4.43.25 PM.png",
+    "Screenshot 2025-04-30 at 4.43.22 PM.png"
+  ],
+  "Wild one": {
+    "AI Products": [
+      "safari_party_product_links.json",
+      "safari_party_product_links.csv",
+      "table_and_cookie.png",
+      "table_and_cookie.jpeg",
+      "lemonade.png",
+      "lemonade.jpeg",
+      "invite.png",
+      "invite.jpeg",
+      "goodie_bags.png",
+      "goodie_bags.jpeg",
+      "dessert_table.png",
+      "dessert_table.jpeg",
+      "cookies.png",
+      "color_palette.png",
+      "cake.png",
+      "cake.jpeg",
+      "backdrop_and_dessert.png",
+      "backdrop.png",
+      "backdrop.jpeg"
+    ]
+  },
+  "Strawberry": {
+    "root_files": [
+      "strawberry_bday.png",
+      "straw_mood_board.png",
+      "scene.png",
+      "mood.png",
+      "balloon.png"
+    ],
+    "Products": [
+      "dad_Shorts.jpg",
+      "dad_Short.jpeg",
+      "strawberry_plates.png",
+      "strawberry_plates Background Removed.png",
+      "plates.png",
+      "plates Background Removed.png",
+      "mom_dress.webp",
+      "mom_dress Background Removed.png",
+      "mom_dress Background Removed.jpeg",
+      "goodie_bag.webp",
+      "goodie_bag.jpeg",
+      "dad_shirt.jpeg",
+      "dad_shirt.avif",
+      "dad_shirt Background Removed.png",
+      "dad_Short.webp",
+      "dad_Short Background Removed.png",
+      "dad_Short Background Removed 2.png",
+      "cups.webp",
+      "cups Background Removed.png",
+      "cake.png",
+      "Screenshot 2025-04-30 at 4.44.24 PM.png",
+      "Screenshot 2025-04-30 at 4.43.16 PM.png"
+    ]
+  },
+  "Tutorials": [
+    "twist2.png",
+    "twist.png",
+    "tie.png",
+    "setup.png",
+    "round.png",
+    "figure8_2.png",
+    "figure8_1.png",
+    "figure8_0.png",
+    "blow.png",
+    "balloon tutorial .MP4",
+    "Video_Ready_Balloon_Garland_Setup.mp4",
+    "ChatGPT Image May 3, 2025, 12_15_54 PM.png"
+  ]
+}
